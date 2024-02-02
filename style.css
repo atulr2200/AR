@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: georgia;
+}
+nav{
+    top: 0;
+    position: fixed;
+}
+.logo{
+    margin-left: 250px;
+}
+h1{
+    font-family: georgia;
+    color: #1c5eda;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+    /* text-shadow: 0px 3px 5px #5780cc; */
+}
+
+.h1-p{
+    margin-top: -20px;
+    padding: 20px;
+    text-align: center;
+    width: 70%;
+}
+
+
+.uni{
+    font-size: 14px;
+}
+h5{
+    font-size: 23px;
+    color: #1c5eda;
+}
+.conn{
+    width: 100%;
+    overflow: hidden;
+
+}
+h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.conn .text{
+    position: relative;
+    color: #1c5eda;
+    font-size: 40px;
+    font-weight: 600;
+}
+.conn .first-text{
+    color: #333;
+}
+.conn .sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-left: 2px solid #1c5eda;
+    animation:animate 4s steps(19) infinite;
+}
+@keyframes animate {
+    60%,40%{
+        left: calc(100% + 4px);
+        width: 0%;
+    }
+    100%{
+        left: 0%;
+        
+    }
+}
+
+
+.box{
+    margin-top: 50px;
+    background: url(ar1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 20px 15px 15px rgba(0,0,0,0.2);
+    animation: ani 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+
+}
+@keyframes ani {
+    0%,100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40% ;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60% ;
+    }
+   
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0s ease-in-out;
+    
+    cursor: pointer;
+}
+/* .overlay .content{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%, 25%);
+    color: #fff;
+    font-family: verdana;
+    text-align: center;
+} */
+
+.main :hover .overlay{
+    opacity: 0.8;
+    background: #333;
+}
+.about{
+    border-left: 2px solid #1c5eda;
+    padding: 40px;
+}
+
+.details{
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 1px solid #c6cfdf
+    
+}
+
+.details span{
+    color: #1c5eda;
+    padding-left: 20px;
+}
+/* skills */
+
+
+.Skills{
+    font-size: 17px;
+    text-align: center;
+    margin: 5px;
+    
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+/* footer */
+
+    
+   .footer {
+    margin-top: 20px;
+    /* box-shadow: 0px -15px 10px 0px #c6cfdf; */
+    border-top: 2px solid #1c5eda;
+    background-color: #fff;
+    color: #333;
+    padding: 20px 0;
+    }
+    .about-link{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .social-icons {
+    list-style: none;
+    padding: 0;
+    
+    }
+    
+    .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+    }
+    
+    .social-icons a {
+    background-color: #fff;
+    color: #333;
+    font-size: 25px;
+    text-decoration: none;
+    }
+    
+    .social-icons a:hover {
+    color: #007bff; /* Change color on hover (optional) */
+    }
+    .social-icons .instagram:hover {
+    color: #e7469f; /* Change color on hover (optional) */
+    }
+    .social-icons .github:hover {
+    color: #b3abab; /* Change color on hover (optional) */
+    }
+    .social-icons .youtube:hover {
+    color: #ff0000; /* Change color on hover (optional) */
+    }
+    a{
+        text-decoration: none;
+    } 
+    .intro{
+        margin-top: 50px;
+        height: 90vh;
+    }
+
+
+    @media (300px <= width <= 750px) {
+        .intro{
+            height: auto;
+        }
+        .field-desc{
+            width: 0;
+            height: 0;
+            visibility: hidden;
+            display: none;
+        }
+        .logo{
+            margin-left: 0px;
+            
+        }
+        .conn .text,h2,h5{
+            font-size: 20px;
+        }
+<<<<<<< HEAD
+       
+=======
+        
+>>>>>>> 6b3f5895d8611b87aa2fdfed842b796d7171fea8
+        .wrapper{
+            padding-left: 30px;
+            padding-top: 50px;
+            position: absolute;
+        }
+        .box{
+            margin-top: 20px;
+            background: none;
+<<<<<<< HEAD
+            height: 330px;
+            width: 320px;
+=======
+            height: 340px;
+            width: auto;
+>>>>>>> 6b3f5895d8611b87aa2fdfed842b796d7171fea8
+        }
+        .about{
+            border-left: none;
+            border-top: 2px solid #1c5eda;
+            
+        }
+        .details{
+            font-size: 15px;
+        }
+        .f-links{
+            margin: 0;
+            padding: 0;
+        }
+        .footer {
+            height: 100vh;
+        }
+        .about-link{
+            display: block;
+            justify-content: center;
+            
+        }
+    }
