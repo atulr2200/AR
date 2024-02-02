@@ -227,11 +227,7 @@ h2{
         .conn .text,h2,h5{
             font-size: 20px;
         }
-<<<<<<< HEAD
-       
-=======
-        
->>>>>>> 6b3f5895d8611b87aa2fdfed842b796d7171fea8
+
         .wrapper{
             padding-left: 30px;
             padding-top: 50px;
@@ -240,13 +236,9 @@ h2{
         .box{
             margin-top: 20px;
             background: none;
-<<<<<<< HEAD
-            height: 330px;
-            width: 320px;
-=======
             height: 340px;
             width: auto;
->>>>>>> 6b3f5895d8611b87aa2fdfed842b796d7171fea8
+
         }
         .about{
             border-left: none;
